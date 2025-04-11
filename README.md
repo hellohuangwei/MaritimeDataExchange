@@ -154,10 +154,19 @@ describe("MaritimeDataRouter", function () {
 - **Logistics order matching**: Forwarders can submit and match orders through smart contract automation
 
 
-# OffChainSyncMaritimeData backend
+# 🚢 OffChainSyncMaritimeData Backend
 
-`OffChainSyncMaritimeData is a middleware service that listens to maritime smart contract events on the blockchain and synchronizes them to off-chain systems such as databases, APIs, or business platforms.
+**OffChainSyncMaritimeData** is a middleware service that listens to maritime-related smart contract events on the blockchain and synchronizes them to off-chain systems such as databases, APIs, or enterprise platforms.
 
+This service ensures that on-chain events are reflected in real time within traditional IT systems, enabling seamless data processing and business integration.
 
+## 🚀 Getting Started
+
+### Prerequisites
+- Java 17 or higher
+- Access to the blockchain node (e.g., via WebSocket or RPC)
+- Configuration files (if applicable)
+
+### Start the Service
+```bash
 java -jar target/syncdatamarket-0.0.1-SNAPSHOT.jar
-
