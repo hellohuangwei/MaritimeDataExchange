@@ -152,3 +152,12 @@ describe("MaritimeDataRouter", function () {
 - **Vessel scheduling and weather data**: Chain-based verification and pricing using AIS and meteorological data
 - **Satellite data leasing**: Providers offer encrypted access with permission controls and automated payment
 - **Logistics order matching**: Forwarders can submit and match orders through smart contract automation
+
+
+# OffChainSyncMaritimeData
+
+`OffChainSyncMaritimeData is a middleware service that listens to maritime smart contract events on the blockchain and synchronizes them to off-chain systems such as databases, APIs, or business platforms.
+
+
+
+
