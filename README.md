@@ -165,7 +165,6 @@ This service ensures that on-chain events are reflected in real time within trad
 ### Prerequisites
 - Java 17 or higher
 - Access to the blockchain node (e.g., via WebSocket or RPC)
-- Configuration files (if applicable)
 
 ### Start the Service
 ```bash
